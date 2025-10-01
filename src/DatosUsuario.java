@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import utilidades.ProcesadorTexto;
 
 public class DatosUsuario {
 
@@ -8,7 +9,21 @@ public class DatosUsuario {
         String nombre = sc.nextLine();
         System.out.print("Introduce your age: ");
         int edad;
-        
+        try {
+            edad = Integer.parseInt(sc.nextLine());
+            if (edad < 0) {
+                System.out.println("La edad no puede ser negativa.");
+                return;
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Por favor, introduce un número valido para la edad.");
+            return;
+        }
+        System.out.println("introduce you email");
+        String email = sc.nextLine();
+        boolean emailValido = ProcesadorTexto.esEmailValido(email);
     }
+
+
 }
     
