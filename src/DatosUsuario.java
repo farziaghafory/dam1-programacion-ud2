@@ -11,7 +11,7 @@ public class DatosUsuario {
         // ask for name and save it under nombre variable
         System.out.println("Escribe tu nombre: ");
         String nombre = sc.nextLine();
-// ask for age and save it under edad variable as an integar
+        // ask for age and save it under edad variable as an integar
         System.out.println("Escribe tu edad: ");
         int edad = sc.nextInt();
         sc.nextLine(); // What Professor said in class
