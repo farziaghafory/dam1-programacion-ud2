@@ -73,4 +73,4 @@ class CuentaBancaria {
 // - ¿Qué ventajas tiene que saldo sea private?
 // - ¿Qué pasaría si saldo fuera public?
 // - ¿Por qué registrarOperacion es private en lugar de public?
-// Respuesta: ....................................................
+// Respuesta: becuase they are very confidential and for the security reason we do private.
