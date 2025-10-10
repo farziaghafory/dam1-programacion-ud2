@@ -9,8 +9,8 @@ public class GestorTareas {
         System.out.println(estadoTarea(true)); // booleano
         System.out.println(estadoTarea(false)); // booleano
         System.out.println("Productividad: " + productividad(10, 7) + "%");
-        sobrecarga();
-        sobrecarga("Farzia", 5);
+        sobrecarga(); // wihtout Parameter
+        sobrecarga("Farzia", 5); // with parameter
         String plan = bonus("Estudiar matemáticas", 135);
         System.out.println(plan);
     }
