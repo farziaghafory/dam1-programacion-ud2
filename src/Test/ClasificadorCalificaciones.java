@@ -21,3 +21,4 @@ public static void main(String[] args) {
         }
 }
 }
+// It does not work although i put double instead of int
